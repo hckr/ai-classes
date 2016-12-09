@@ -1,3 +1,3 @@
 Solutions to function optimization problem using:
-	- evolution strategy
-	- particle swarm optimization.
+- evolution strategy,
+- particle swarm optimization.
