@@ -1,6 +1,5 @@
 from __future__ import division
 import matplotlib.pyplot as plt
-import numpy as np
 
 def prepare_summary(title, data):
     fig = plt.figure(figsize=(8, 8))
@@ -15,6 +14,6 @@ def prepare_summary(title, data):
         ax.set_xlabel('Epoch')
         subplot_index += 1
     plt.tight_layout()
-        
+
 def show_summaries():
     plt.show()

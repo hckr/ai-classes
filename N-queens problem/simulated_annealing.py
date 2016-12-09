@@ -1,7 +1,6 @@
 #!/usr/bin/env python2
 # -*- coding: utf-8 -*-
 
-import sys
 import math
 from random import randint, random
 from matplotlib.pyplot import *

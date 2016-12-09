@@ -1,7 +1,6 @@
 #!/usr/bin/env python2
 # -*- coding: utf-8 -*-
 
-import numpy as np
 from functions import easom, griewank, rosenbrock
 from summary import prepare_summary, show_summaries
 from classes import Entity, Population, Selection
