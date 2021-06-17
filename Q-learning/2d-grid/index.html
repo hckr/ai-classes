@@ -8,9 +8,26 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
+    <label
+      >Move delay (less is faster):
+      <input
+        id="delaySelector"
+        type="range"
+        min="0"
+        max="1000"
+        value="0"
+        onchange="updateDelay()"
+    /></label>
+
     <script src="main.js"></script>
     <script>
       renderGrid(document.body);
+      function updateDelay() {
+        ENV_STATE.nextMoveDelayMs = delaySelector.value;
+      }
+      updateDelay();
+      startLoop();
     </script>
+    <div class="footer">Created by <a href="https://hckr.pl">Jakub Młokosiewicz</a></div>
   </body>
 </html>
